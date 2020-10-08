@@ -1,0 +1,9 @@
+.active{
+  color: red;;
+}
+.navSpace
+{
+  color: black;
+  min-width: 100px;
+  margin: 10px;
+}
