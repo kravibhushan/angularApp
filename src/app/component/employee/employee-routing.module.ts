@@ -5,7 +5,7 @@ import { ViewEmployeeComponent } from './view-employee/view-employee.component';
 
 const routes: Routes = [
   { path: '', component: ViewEmployeeComponent },
-  { path: 'create', component: CreateEmployeeComponent, pathMatch: 'full'},
+  { path: 'create', component: CreateEmployeeComponent},
 ];
 
 @NgModule({

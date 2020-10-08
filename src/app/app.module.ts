@@ -14,7 +14,7 @@ import { BadRequestComponent } from './bad-request/bad-request.component';
     DashboardComponent,
     HomeComponent,
     NavbarComponent,
-    BadRequestComponent
+    BadRequestComponent,
   ],
   imports: [
     BrowserModule,

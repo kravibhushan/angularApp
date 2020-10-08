@@ -15,7 +15,7 @@ const routes: Routes = [
   },
   {
     path: 'Department',
-    loadChildren: () => import('./component/department/department.module').then(m => m.DepartmentModule), pathMatch: 'full'
+    loadChildren: () => import('./component/department/department.module').then(m => m.DepartmentModule)
   },
   { path: '**', component: BadRequestComponent },
 ];
