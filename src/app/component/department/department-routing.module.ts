@@ -4,7 +4,7 @@ import { ViewDepartmentComponent } from './view-department/view-department.compo
 import { CreateDepartmentComponent } from './create-department/create-department.component';
 
 const routes: Routes = [
-  { path: '', component: ViewDepartmentComponent },
+  { path: '', component: ViewDepartmentComponent, pathMatch: 'full' },
   { path: 'create', component: CreateDepartmentComponent, pathMatch: 'full'},
 ];
 

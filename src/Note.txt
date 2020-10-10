@@ -1,0 +1,6 @@
+Points to work on:-
+Custome directive
+Pipes
+Authguards
+Http
+Observable
